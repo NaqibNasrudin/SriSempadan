@@ -1,0 +1,121 @@
+.carta-body{
+    width: 100%;
+    /* background: linear-gradient(
+        to bottom,
+        #088F8F 0%,
+        #088F8F 10%,
+        whitesmoke 30%,
+        whitesmoke 100%
+    ); */
+    background-image:
+    linear-gradient(to bottom, rgba(38, 38, 39, 0.32), rgba(8, 8, 8, 0.53)),
+    url('../img/org.png');
+    background-attachment: fixed;
+}
+@keyframes slideInFromRight {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+}
+.carta{
+    text-align: center;
+    color: white;
+    padding: 70px;
+    width: 70%;
+    margin: 0 auto;
+}
+.carta-img{
+    width: 100%;
+}
+h3{
+    font-size: 30px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+.ketuakg{
+    background-color: white;
+    display: flex;
+    width: 60%;
+    margin: 50px auto;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    animation: 0.7s ease-out 0s 1 slideInFromRight;
+}
+.ketuakg-img{
+    margin-top: 30px;
+}
+.bio{
+    padding: 10px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+.title{
+    color: rgb(167, 167, 167);
+    margin-top: 0px;
+}
+.detail{
+    margin-top: -18px;
+    font-size: 23px;
+}
+h2{
+    color: black;
+    border-bottom: 10px solid #088F8F;
+    display: inline-flex;
+}
+
+
+@media only screen and (max-width: 480px){
+
+    .ketuakg{
+        background-color: white;
+        display:flex;
+        flex-direction: column;
+        width: 90%;
+        margin: 50px auto;
+    }
+    .ketuakg-img{
+        margin-top: 30px;
+        height: 100px;
+    }
+    .bio{
+        margin-top: 500px;
+        padding: 10px;
+        font-family: 'Barlow Semi Condensed', sans-serif;
+    }
+    .title{
+        color: rgb(167, 167, 167);
+        margin-top: 0px;
+    }
+    .detail{
+        margin-top: -18px;
+        font-size: 15px;
+    }
+    h2{
+        font-size: 40px;
+        padding: 10px;
+        color: black;
+        border-bottom: 10px solid #088F8F;
+        display: inline-flex;
+        -moz-transform: rotate(270deg);
+        /* FF3.5+ */
+        -o-transform: rotate(270deg);
+        /* Opera 10.5 */
+        -webkit-transform: rotate(-90deg);
+        /* Saf3.1+, Chrome */
+        -moz-transform-origin: 100% 100%;
+        -o-transform-origin: 100% 100%;
+        -webkit-transform-origin: 100% 100%;
+        margin-left: 120px;
+        margin-top: -500px;
+    }
+
+
+    .carta{
+        text-align: center;
+        padding: 20px;
+        width: 90%;
+    }
+    .carta-img{
+        width: 100%;
+    }
+}

@@ -1,0 +1,102 @@
+.about-body{
+    background-image:
+    linear-gradient(to bottom, rgba(38, 38, 39, 0.32), rgba(8, 8, 8, 0.53)),
+    url('../img/sejarahbg3.png');
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1{
+    font-family: 'Ostrich Sans Rounded', sans-serif;
+    font-size: 3rem;
+    margin-bottom: 0px;
+    text-align: left;
+    color: #55a5a5;
+    padding: 10px;
+}
+p{
+    font-size: 25px;
+    width: 100%;
+    margin: 50 auto;
+    padding: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.logo-about{
+    width: 200px;
+    height: 200px;
+}
+.card{
+    float: right;
+    color: white;
+    width: 45%;
+    margin: 0 auto;
+    padding: 20px;
+    margin: 40px;
+}
+table, th, td {
+    border-color: #333;
+    text-align: center;
+}
+table{
+    width: 70%;
+    margin: 0 auto;
+}
+th{
+    background-color: #088F8F;
+    color: white;
+}
+.even{
+    background-color: grey;
+    color: white;
+}
+.odd{
+    background-color: whitesmoke;
+    color: black;
+}
+.card-image{
+    display: none;
+}
+
+@keyframes slideInFromRight {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+}
+
+
+
+@media only screen and (max-width: 480px){
+    .about-body{
+        background-image:
+        linear-gradient(to bottom, rgba(38, 38, 39, 0.32), rgba(8, 8, 8, 0.53)),
+        url('../img/history-bg.png');
+    }
+    h1{
+        font-size: 1.5rem;
+    }
+    p{
+        font-size: 10px;
+    }
+    .card{
+        background-color: #333;
+        width: 90%;
+        margin: 0 auto;
+        padding: 10px;
+        border-radius: 25px;
+    }
+    .logo-about{
+        width: 100px;
+        height: 100px;
+    }
+    table{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .card-image{
+        display: block;
+        width: 100%;
+    }
+}

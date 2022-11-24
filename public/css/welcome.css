@@ -1,0 +1,500 @@
+html{
+    scroll-behavior: smooth;
+    scroll-snap-type: Y mandatory;
+}
+.welcome-body{
+    width: 100%;
+    margin: 0 auto;
+    background-color: whitesmoke;
+}
+.welcome{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 3rem;
+    margin-bottom: 0px;
+    color: #d2ffcd;
+}
+.name{
+    font-family: 'Ostrich Sans Rounded', sans-serif;
+    font-size: 8rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #7be272;
+}
+.motto-title{
+    font-family: 'Ostrich Sans Rounded', sans-serif;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 70px;
+    color: #95f1f1;
+    display: inline-flex;
+
+}
+.text{
+    margin: 0 auto;
+    width: 70%;
+}
+.title{
+    margin-top: -150px;
+    padding-top: 330px;
+    padding-bottom: 350px;
+    color: white;
+    background-size: cover;
+    background-image:
+    linear-gradient(to bottom, rgba(38, 38, 39, 0.5), rgba(8, 8, 8, 0.7)),
+    url('../img/bg2.jpg');
+    width: 100%;
+    background-attachment: fixed;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+}
+.container2{
+    margin-left: 130px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+  }
+  .btn {
+      display: inline-block;
+      width: 277px;
+      height: 50px;
+      font-size: 1em;
+      font-weight: bold;
+      line-height: 60px;
+      text-align: center;
+      text-transform: uppercase;
+      background-color: transparent;
+      cursor: pointer;
+      text-decoration:none;
+      font-family: 'Roboto', sans-serif;
+      font-weight:900;
+      font-size:17px;
+      letter-spacing: 0.045em;
+  }
+
+  .btn svg {
+      position: absolute;
+      top: 0;
+      left: 0;
+  }
+
+  .btn svg rect {
+      stroke: rgb(253, 253, 253);
+      stroke-width: 4;
+      stroke-dasharray: 353, 0;
+      stroke-dashoffset: 0;
+      -webkit-transition: all 600ms ease;
+      transition: all 600ms ease;
+  }
+
+  .btn span{
+    background: #088F8F;
+    background: -moz-linear-gradient(left,  #088F8F 0%, rgba(255, 255, 255,1) 100%);
+    background: -webkit-linear-gradient(left,  #088F8F 0%,rgba(255, 255, 255,1) 100%);
+    background: linear-gradient(to right,  #088F8F 0%,rgb(255, 255, 255) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8282', endColorstr='#e178ed',GradientType=1 );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .btn:hover svg rect {
+      stroke-width: 4;
+      stroke-dasharray: 196, 543;
+      stroke-dashoffset: 437;
+  }
+.visimisi{
+    background-color: #088F8F;
+    text-align: center;
+    padding: 50px;
+}
+.c2-text{
+    font-size: 25px;
+}
+.motto-header{
+    text-align: left;
+    font-size: 50px;
+    padding-left: 30px;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-top: 50px;
+    width: 70%;
+    margin: 0 auto;
+}
+.motto-quote{
+    color: #088F8F;
+    font-size: 30px;
+    text-align: left;
+    padding-left: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 70%;
+    margin: 0 auto;
+}
+.content{
+    background-image:
+    linear-gradient(to bottom, rgba(38, 38, 39, 0.7), rgba(8, 8, 8, 0.8)),
+    url('../img/motto.png');
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 10px;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+}
+img{
+    height: 200px;
+    margin-top: -60px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
+}
+.explain{
+    width: 70%;
+    margin: 0 auto;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+img:hover{
+    height: 280px;
+    transition: 0.3s;
+}
+.unggul,.sepakat,.harmoni{
+    display: flex;
+    width: 80%;
+    margin: 50 auto;
+    align-items: center;
+    background-color: aliceblue;
+    box-shadow: rgba(0, 0, 0, 1.0) 0px 7px 29px 0px;
+    padding: 20px;
+}
+.explain-text{
+    font-size: 25px;
+    padding: 30px;
+}
+.visimisi{
+    background-image:
+    linear-gradient(to bottom, rgba(38, 38, 39, 0.3), rgba(8, 8, 8, 0.5)),
+    url('../img/visimisi.png');
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 200px;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+}
+.visimisi-title{
+    display: inline-flex;
+    padding: 5px;
+    margin-bottom: 0px;
+    color: black;
+    background-color:rgb(40, 138, 27);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.visimisi-text{
+    text-align: left;
+    width: 50%;
+    margin: 0 auto;
+}
+.visi-title,.misi-title{
+    font-size: 80px;
+    color: white;
+    margin-top: 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.visi-text,.misi-text{
+    margin-top: -80px;
+    font-size: 40px;
+    color: #088F8F;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.dev{
+    float: right;
+    font-size: 20px;
+    margin: 20px;
+    margin-top: 200px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+a{
+    color: #7be272;
+}
+
+
+
+@media only screen and (max-width: 1100px) {
+    .halfbg{
+        background-color: #088F8F;
+        width: 100%;
+        height: 350px;
+        position: absolute;
+        z-index: 0;
+        margin-top: 700px;
+        margin-bottom: 0px;
+        padding-bottom: 150px ;
+        overflow-x: hidden;
+        overflow-y: auto;
+        -webkit-perspective: 300px;
+        perspective: 300px;
+    }
+    .motto{
+        text-align: center;
+        font-size: 50px;
+    }
+    .child-text{
+        font-size: 30px;
+    }
+    h2{
+        font-family: 'Ostrich Sans', sans-serif;
+        font-size: 2rem;
+        margin-bottom: 0px;
+    }
+    h1{
+        font-family: 'Ostrich Sans Rounded', sans-serif;
+        font-size: 5rem;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .title{
+        margin-top: -200px;
+        padding-top: 330px;
+        padding-bottom: 350px;
+        color: white;
+        background-image:
+        linear-gradient(to bottom, rgba(38, 38, 39, 0.52), rgba(8, 8, 8, 0.73)),
+        url('../img/bg2.jpg');
+        background-attachment: fixed;
+    }
+    .welcome-body {
+      background-color: lightblue;
+    }
+
+  }
+
+/*ipad*/
+@media only screen and (max-width: 1024px) {
+    .halfbg{
+        background-color: #088F8F;
+        width: 100%;
+        height: 350px;
+        position: absolute;
+        z-index: 0;
+        margin-top: 700px;
+        margin-bottom: 0px;
+        padding-bottom: 150px ;
+        overflow-x: hidden;
+        overflow-y: auto;
+        -webkit-perspective: 300px;
+        perspective: 300px;
+    }
+    .motto{
+        text-align: center;
+        font-size: 50px;
+    }
+    .child-text{
+        font-size: 30px;
+    }
+    h2{
+        font-family: 'Ostrich Sans', sans-serif;
+        font-size: 2rem;
+        margin-bottom: 0px;
+    }
+    h1{
+        font-family: 'Ostrich Sans Rounded', sans-serif;
+        font-size: 5rem;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .title{
+        margin-top: -200px;
+        padding-top: 330px;
+        padding-bottom: 350px;
+        color: white;
+        background-image:
+        linear-gradient(to bottom, rgba(38, 38, 39, 0.52), rgba(8, 8, 8, 0.73)),
+        url('../img/bg2.jpg');
+        background-attachment: fixed;
+    }
+    .welcome-body {
+      background-color: lightblue;
+    }
+  }
+
+
+
+/*tablet*/
+@media only screen and (max-width: 767px) {
+    .halfbg{
+        background-color: #088F8F;
+        width: 100%;
+        height: 140px;
+        position: absolute;
+        z-index: 0;
+        margin-top: 650px;
+        margin-bottom: 0px;
+        padding-bottom: 150px ;
+        overflow-x: hidden;
+        overflow-y: auto;
+        -webkit-perspective: 300px;
+        perspective: 300px;
+    }
+    .motto{
+        text-align: center;
+        font-size: 50px;
+        margin-bottom: -200px;
+    }
+    .child-text{
+        margin-top: -150px;
+        font-size: 20px;
+        margin-bottom: -200px;
+    }
+    h2{
+        font-family: 'Ostrich Sans', sans-serif;
+        font-size: 2rem;
+        margin-bottom: 0px;
+    }
+    h1{
+        font-family: 'Ostrich Sans Rounded', sans-serif;
+        font-size: 5rem;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .title{
+        margin-top: -200px;
+        padding-top: 330px;
+        padding-bottom: 350px;
+        color: white;
+        background-image:
+        linear-gradient(to bottom, rgba(38, 38, 39, 0.52), rgba(8, 8, 8, 0.73)),
+        url('../img/bg2.jpg');
+        background-attachment: fixed;
+    }
+    .welcome-body {
+      background-color: lightblue;
+    }
+  }
+
+
+
+/*phone*/
+@media screen and (max-width: 480px) {
+    .btn {
+        display: none;
+    }
+    .motto{
+        text-align: center;
+        font-size: 50px;
+        margin-bottom: -200px;
+    }
+    .child-text{
+        margin-top: -150px;
+        font-size: 20px;
+        margin-bottom: -200px;
+    }
+    .title{
+        margin-top: -250px;
+        padding-top: 330px;
+        padding-bottom: 350px;
+        color: white;
+        background-image:
+        linear-gradient(to bottom, rgba(38, 38, 39, 0.52), rgba(8, 8, 8, 0.73)),
+        url('../img/bgsmall.jpg');
+        background-attachment: fixed;
+    }
+    .welcome-body {
+      background-color: lightcyan;
+    }
+
+
+    .welcome{
+        font-family: 'Ostrich Sans', sans-serif;
+        font-size: 2rem;
+        margin-bottom: 0px;
+    }
+    .name{
+        font-family: 'Ostrich Sans Rounded', sans-serif;
+        font-size: 5rem;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .motto-header{
+        text-align: left;
+        font-size: 30px;
+        padding-left: 30px;
+        color: white;
+        width: 95%;
+    }
+    .motto-quote{
+        color: white;
+        font-size: 20px;
+        text-align: left;
+        padding-left: 30px;
+        margin-top: 250px;
+        width: 95%;
+    }
+    .content{
+        background-image:
+        linear-gradient(to bottom, rgba(38, 38, 39, 0.7), rgba(8, 8, 8, 0.9)),
+        url('../img/motto.png');
+        background-size: cover;
+        padding: 10px;
+    }
+    img{
+        margin-top: -70px;
+        height: 100px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    .explain{
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 100px;
+    }
+    .unggul,.sepakat,.harmoni{
+        display: flex;
+        width: 95%;
+        margin: 50px auto;
+        align-items: center;
+        background-color: aliceblue;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        padding: 10px;
+    }
+    .explain-text{
+        font-size: 1rem;
+        padding: 10px;
+    }
+
+    .visimisi{
+        background-image:
+        linear-gradient(to bottom, rgba(38, 38, 39, 0.3), rgba(8, 8, 8, 0.5)),
+        url('../img/visimisi.png');
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 10px;
+        padding-top: 200px;
+        padding-bottom: 200px;
+    }
+    .visimisi-title{
+        margin-top: 50px;
+        font-size:10px;
+        display: inline-flex;
+        padding: 5px;
+        margin-bottom: 0px;
+        color: black;
+        background-color:rgb(40, 138, 27);
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+    .visimisi-text{
+        text-align: left;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .visi-title,.misi-title{
+        font-size: 50px;
+        color: white;
+        margin-top: 0px;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+    .visi-text,.misi-text{
+        margin: 0 auto;
+        font-size: 20px;
+        color: #088F8F;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+    .dev{
+        float: right;
+        font-size: 15px;
+        margin: 20px;
+        margin-top: 150px;
+    }
+
+  }

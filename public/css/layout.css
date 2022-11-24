@@ -1,0 +1,160 @@
+body{
+    width: 100%;
+    margin: 0 auto;
+}
+
+nav {
+  width: 80%;
+  margin: 0 auto;
+  background-color: transparent;
+  padding: 1px;
+}
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  color: white;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin: 10px;
+  font-family: 'Ubuntu', sans-serif;
+}
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+  transition: all .5s;
+}
+
+nav ul li a:hover {
+  color: rgb(105, 214, 105);
+}
+nav.stroke ul li a,
+nav.fill ul li a {
+  position: relative;
+}
+nav.stroke ul li a:after,
+nav.fill ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #aaa;
+  height: 1px;
+}
+nav.stroke ul li a:hover:after {
+  width: 100%;
+}
+
+nav.fill ul li a {
+  transition: all 2s;
+}
+
+nav.fill ul li a:after {
+  text-align: left;
+  content: '.';
+  margin: 0;
+  opacity: 0;
+}
+nav.fill ul li a:hover {
+  color: #fff;
+  z-index: 1;
+}
+nav.fill ul li a:hover:after {
+  z-index: -10;
+  animation: fill 1s forwards;
+  -webkit-animation: fill 1s forwards;
+  -moz-animation: fill 1s forwards;
+  opacity: 1;
+}
+
+.closebtn {
+    display: none;
+  }
+.open{
+    display: none;
+}
+
+/* @media only screen and (max-width: 480px){
+    nav {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-right: 60px;
+        width: 50%;
+        margin: 0 auto;
+        background-color:transparent;
+      }
+      nav ul {
+        list-style-type: none;
+        text-align: center;
+      }
+      nav ul li {
+        display: inline-block;
+      }
+      nav ul li a {
+        font-size: 10px;
+        display: block;
+        padding: 10px;
+        text-decoration: none;
+        color: black;
+        font-weight: 800;
+        text-transform: uppercase;
+        margin: 0 10px;
+      }
+} */
+
+
+@media only screen and (max-width: 480px){
+    nav {
+        height: 100%;
+        width: 0;
+        margin-left: -40px;
+        position: fixed;
+        z-index: 10;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+      }
+      nav ul {
+        list-style-type: none;
+        text-align: center;
+      }
+      nav ul li a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 15px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+      }
+
+      nav .closebtn {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+      }
+      .open{
+        display: block;
+        z-index: 10;
+        color: white;
+        width: 10%;
+        border-radius: 0% 0% 100% 0%;
+        padding: 20px;
+      }
+}
